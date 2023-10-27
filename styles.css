@@ -62,14 +62,15 @@ li {
 }
 
 .header {
-    font-size: 30em;
-    margin-top: -100px;
-    margin-bottom: -0.2em;
+    font-size: 22em;
+    margin-top: -70px;
+    margin-bottom: -0.3em;
+    letter-spacing: 1.3rem;
     display: block;
 }
 
 .above-header {
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 1.2em;
     text-align: center;
     display: flexbox;
@@ -78,18 +79,22 @@ li {
 
 .intro {
     font-family: Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     text-shadow: 3px 3px 2px #00000055;
     color: white;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     width: 80%;
-    max-width: 900px;
-    display: inline-block;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    white-space: pre-line;
 }
 
 .scroll-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: white;
     text-shadow: 3px 3px 3px #00000055;
 }
@@ -113,12 +118,13 @@ li {
 
 #caption {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
     background-color: #222;
     color: white;
     max-width: 780px;
     padding: 10px;
     margin: auto;
-    height: 200px;
+    height: 130px;
 }
 
 .arrow-body {
@@ -210,7 +216,7 @@ li {
 
 .column {
     float: left;
-    width: 16.66%;
+    width: 20%;
 }
 
 .demo {
@@ -225,9 +231,12 @@ li {
     font-family: Arial, sans-serif;
     font-size: 1.2em;
     text-shadow: 3px 3px 2px #00000055;
+    display: flex;
+    justify-content: space-evenly;
     color: white;
+    margin-top: -1.5em;
     margin-bottom: 4em;
     width: 80%;
-    max-width: 900px;
+    max-width: 650px;
     display: inline-block;
 }
